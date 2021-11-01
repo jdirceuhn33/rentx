@@ -17,12 +17,12 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "baseUrl": ".",
+    "baseUrl": ".src/",
     "paths": {
-      /*"@controllers.*": ["./src/controllers/*"],
-      "@models.*": ["./src/models/*"],
-      "@views.*": ["./src/views/*"],
-      "@config.*": ["./src/config/*"]*/
+      /*"@repositories/*": ["src/modules/models/repositories/*"],
+      "@models/*": ["src/modules/models/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@services/*": ["src/modules/services/*"]*/
     }
   }
 }
